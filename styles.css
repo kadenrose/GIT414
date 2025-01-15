@@ -64,6 +64,18 @@ table {
 body {
     display: grid;
 }
+header {
+    background-color: aliceblue;
+}
+nav {
+    background-color: azure;
+}
+main {
+    background-color: beige;
+}
+footer {
+    background-color: lightgrey;
+}
 
 /* MEDIA QUERY (MEDIUM)*/
 @media screen and (min-width:941px) {
@@ -73,5 +85,15 @@ body {
 }
 
 /* MEDIA QUERY (LARGE)*/
+@media screen and (min-width:1322px) {
+    body {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
 
 /* MEDIA QUERY (XL)*/
+@media screen and (min-width:1750px) {
+    body {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
